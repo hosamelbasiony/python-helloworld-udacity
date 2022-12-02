@@ -6,13 +6,13 @@ metadata:
 spec:
   ingressClassName: nginx-example
   rules:
-  - host: localhost
+  - host: local.host
     http:
       paths:
-      - path: /testpath
-        pathType: Prefix
-      # - path: /
-      #   pathType: ImplementationSpecific
+      # - path: /testpath
+      #   pathType: Prefix
+      - path: /
+        pathType: ImplementationSpecific
         backend:
           service:
             name: test
