@@ -4,13 +4,14 @@ metadata:
   labels:
     app: nginx
     tag: alpine
-  name: nginx-alpine
+  name: nginx-alpine-service
   namespace: udacity-demo
 spec:
   ports:
-  - port: 8111
-    protocol: TCP
+  - protocol: TCP
+    port: 8111
     targetPort: 80
+    nodePort: 35010
   selector:
     app: nginx
     tag: alpine
