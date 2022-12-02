@@ -2,7 +2,7 @@
 # a Python application a Python base image is used
 FROM python:3.10
 # set a key-value label for the Docker image
-LABEL maintainer="Katie Gamanji"
+LABEL maintainer="Hosam Mohammad"
 # copy files from the host to the container filesystem. 
 # For example, all the files in the current directory
 # to the  `/app` directory in the container
