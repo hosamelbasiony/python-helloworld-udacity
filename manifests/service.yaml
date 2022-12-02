@@ -9,9 +9,8 @@ metadata:
 spec:
   ports:
   - protocol: TCP
-    port: 8111
+    port: 35010
     targetPort: 80
-    nodePort: 35010
   selector:
     app: nginx
     tag: alpine
