@@ -9,8 +9,10 @@ spec:
   - host: localhost
     http:
       paths:
-      - path: /
-        pathType: ImplementationSpecific
+      - path: /testpath
+        pathType: Prefix
+      # - path: /
+      #   pathType: ImplementationSpecific
         backend:
           service:
             name: test
