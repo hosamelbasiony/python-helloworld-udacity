@@ -9,6 +9,8 @@ spec:
   - host: local.host
     http:
       paths:
-      - backend:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
           serviceName: loadbalancer-service
           servicePort: 8111
