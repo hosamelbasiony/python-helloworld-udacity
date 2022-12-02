@@ -10,7 +10,5 @@ spec:
     http:
       paths:
       - backend:
-          service:
-            name: nginx-alpine
-            port:
-              number: 8111
+          serviceName: loadbalancer-service
+          servicePort: 8111
