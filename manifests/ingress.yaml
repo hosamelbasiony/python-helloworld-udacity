@@ -9,12 +9,8 @@ spec:
   - host: local.host
     http:
       paths:
-      # - path: /testpath
-      #   pathType: Prefix
-      - path: /
-        pathType: ImplementationSpecific
-        backend:
+      - backend:
           service:
-            name: test
+            name: nginx-alpine
             port:
               number: 8111
