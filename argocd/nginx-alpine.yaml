@@ -19,4 +19,4 @@ spec:
   # Sync policy
   syncPolicy: {}
 
-  # kubectl apply -f https://github.com/hosamelbasiony/python-helloworld-udacity/argocd/nginx-alpine.yaml
+  # kubectl apply -f https://raw.githubusercontent.com/hosamelbasiony/python-helloworld-udacity/main/argocd/nginx-alpine.yaml
