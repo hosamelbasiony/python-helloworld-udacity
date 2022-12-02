@@ -22,4 +22,4 @@ CMD [ "python", "app.py" ]
 # docker build -t python-helloworld .
 # docker run -d -p 5555:5000 python-helloworld
 # docker tag python-helloworld hosamelbasiony/python-helloworld:v1.0.0
-# docker push hosamelbasiony/python-helloworld:v1.0.0
+# docker push hosamelbasiony/python-helloworld:v1.0.0 
