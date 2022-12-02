@@ -5,7 +5,7 @@ metadata:
     app: nginx
     tag: alpine
   name: nginx-alpine
-  namespace: demo
+  namespace: udacity-demo
 spec:
   replicas: 3
   selector:
