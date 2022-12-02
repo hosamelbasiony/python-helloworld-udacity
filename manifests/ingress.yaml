@@ -12,5 +12,7 @@ spec:
       - path: /
         pathType: ImplementationSpecific
         backend:
-          serviceName: loadbalancer-service
-          servicePort: 8111
+          service:
+              name: loadbalancer-service
+              port:
+                number: 8111
